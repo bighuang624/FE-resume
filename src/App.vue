@@ -1,30 +1,49 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <leftNav></leftNav>
+    <main>2哈哈哈</main>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello';
+  import LeftNav from './components/LeftNav';
+  import Main from './components/Main';
 
-export default {
-  name: 'app',
-  components: {
-    Hello,
-  },
-};
+  export default {
+    name: 'app',
+    components: {
+      LeftNav,
+      Main,
+    },
+  };
 </script>
 
 <style lang="scss">
-  $common-black: #2c3e50;
+  @import "style/common";
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: $common-black;
-  margin-top: 60px;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $common-black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    @include no-select;
+  }
+
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
 </style>

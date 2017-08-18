@@ -1,0 +1,44 @@
+$common-black: #2c3e50;
+$common-white: #F7F7F7;
+$common-blue: #75B9EF;
+$dark-blue: #35536D;
+
+$common-height: 1000px;
+
+@mixin clearfix {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+    overflow: hidden;
+  }
+}
+
+@mixin transition($range, $time, $style) {
+  -webkit-transition: $range $time $style;
+  -moz-transition: $range $time $style;
+  -o-transition: $range $time $style;
+  transition: $range $time $style;
+}
+
+@mixin title-underline($width) {
+  &:after {
+    display: block;
+    content: "";
+    background-color: $common-black;
+    width: $width;
+    height: 3px;
+    margin: 13.5px auto 0 auto;
+    @include transition(all, .3s, ease);
+  }
+}
+
+@mixin no-select(){
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
