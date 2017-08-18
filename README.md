@@ -1,10 +1,17 @@
 # resume
 
-> Personal resume powered by Vue.js
+[![作者](https:\//img.shields.io\/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http:\//kyonhuang.top)
+
+基于 Vue 开发的个人简历 
+Personal resume powered by Vue.js
 
 ## Build Setup
 
 ``` bash
+# download the project
+git clone git@github.com:bighuang624/resume.git
+cd resume
+
 # install dependencies
 npm install
 
@@ -27,4 +34,33 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Demo
+
+[]()
+
+## TODO
+
+### 设计
+
+- [ ] 简历设计
+
+### 开发
+
+- [ ] 基本信息
+- [ ] 项目经历
+- [ ] 技能列表
+- [ ] 其他
+
+### 测试
+
+- [ ] 单元测试
+- [ ] e2e 测试
+
+### 项目完善
+
+- [ ] 增加徽章
+- [ ] 上传 github 并预览
+
+## License
+
+Licensed under the MIT License
