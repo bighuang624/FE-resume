@@ -63,4 +63,4 @@ npm test
 
 ## License
 
-Licensed under the MIT License
+Licensed under the [MIT License](https://github.com/bighuang624/resume/blob/master/LICENSE)
