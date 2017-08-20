@@ -24,6 +24,7 @@ $common-height: 1000px;
 }
 
 @mixin title-underline($color) {
+
   &:after {
     display: block;
     content: "";
@@ -31,7 +32,22 @@ $common-height: 1000px;
     width: 24px;
     height: 3px;
     margin: 2px auto 0 auto;
-    @include transition(all, .3s, ease);
+    // @include transition(all, .3s, ease);
+  }
+}
+
+@mixin title-absolute-underline($color) {
+
+  &:after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    content: "";
+    background-color: $color;
+    width: 24px;
+    height: 3px;
+    margin: 2px 0 0 -12px;
+    // @include transition(all, .3s, ease);
   }
 }
 

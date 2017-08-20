@@ -1,6 +1,8 @@
 <template>
   <section class="experience">
-    <h3 class="section-title">项目经历</h3>
+    <div class="section-title">
+      <h3>项目经历</h3>
+    </div>
     <ul>
       <li v-for="item in info">
         <div class="experience-title">

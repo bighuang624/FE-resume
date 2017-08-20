@@ -1,6 +1,8 @@
 <template>
   <section class="skills">
-    <h3 class="section-title">技能列表</h3>
+    <div class="section-title">
+      <h3>技能列表</h3>
+    </div>
     <skill :title="'Node.js'" :value="30"></skill>
     <skill :title="'JavaScript'" :value="55"></skill>
   </section>

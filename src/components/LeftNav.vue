@@ -29,9 +29,10 @@
 
   .leftNav {
     width: 288px;
+    float: left;
+    margin-left: -100%;
     height: $common-height;
     padding-top: 48px;
-    float: left;
     background-color: $common-blue;
 
     h1 {

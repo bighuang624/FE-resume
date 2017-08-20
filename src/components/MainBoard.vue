@@ -1,7 +1,9 @@
 <template>
   <div class="mainBoard">
-    <experience></experience>
-    <skills></skills>
+    <div class="inner">
+      <experience></experience>
+      <skills></skills>
+    </div>
   </div>
 </template>
 
@@ -25,20 +27,33 @@
   @import "../style/common";
 
   .mainBoard {
-    min-width: 480px;
+    width: 100%;
     height: $common-height;
     padding-top: 48px;
+    float: left;
 
-    section {
-
-      text-align: left;
-
-      h3.section-title {
-        color: $common-blue;
-        @include title-underline($common-blue);
-        margin-bottom: 10px;
-      }
-
+    .inner {
+      margin-left: 288px;
+      min-width: 480px;
     }
+
+  }
+
+  .skills, .experience {
+
+    text-align: left;
+
+    .section-title {
+
+      position: relative;
+      width: 80px;
+      margin-bottom: 10px;
+      @include title-absolute-underline($common-blue);
+
+      h3 {
+        color: $common-blue;
+      }
+    }
+
   }
 </style>
