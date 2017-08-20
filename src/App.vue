@@ -42,8 +42,11 @@
 
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
   }
 </style>

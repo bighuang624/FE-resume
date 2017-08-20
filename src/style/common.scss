@@ -23,14 +23,14 @@ $common-height: 1000px;
   transition: $range $time $style;
 }
 
-@mixin title-underline($width) {
+@mixin title-underline($color) {
   &:after {
     display: block;
     content: "";
-    background-color: $common-black;
-    width: $width;
+    background-color: $color;
+    width: 24px;
     height: 3px;
-    margin: 13.5px auto 0 auto;
+    margin: 2px auto 0 auto;
     @include transition(all, .3s, ease);
   }
 }
