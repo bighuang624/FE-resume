@@ -23,19 +23,23 @@
 <style lang="scss" scoped>
   @import "../../../style/common";
 
-  skill {
+  .skill {
     display: inline-block;
+    width: 45%;
+    margin: 0 20px 12px 0;
   }
 
   .skill-title {
-    width: 85px;
+    width: 75px;
     display: inline-block;
+    text-align: right;
+    margin-right: 10px;
   }
 
   .skill-line {
     position: relative;
     display: inline-block;
-    width: 100px;
+    width: 50%;
     height: 8px;
     border-radius: 4px;
     background-color: $dark-blue;

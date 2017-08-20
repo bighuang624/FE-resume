@@ -3,6 +3,7 @@
     <div class="inner">
       <experience></experience>
       <skills></skills>
+      <selfEvaluation></selfEvaluation>
     </div>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
   import Experience from './main/Experience';
   import Skills from './main/Skills';
+  import SelfEvaluation from './main/SelfEvaluation';
 
   export default {
     name: 'mainBoard',
     components: {
       Experience,
       Skills,
+      SelfEvaluation,
     },
     data() {
       return {};
@@ -39,7 +42,7 @@
 
   }
 
-  .skills, .experience {
+  .skills, .experience, .self-evaluation {
 
     text-align: left;
 

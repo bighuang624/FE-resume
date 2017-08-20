@@ -1,7 +1,7 @@
 <template>
   <div class="leftNav">
     <img id="avatar" src="../assets/avatar.jpg">
-    <h1>KYON HUANG</h1>
+    <h1>Kyon Huang</h1>
     <h3>Web 开发工程师</h3>
     <aboutMe></aboutMe>
     <contact></contact>
@@ -38,10 +38,6 @@
     h1 {
       color: $common-white;
       margin-top: 10px;
-    }
-
-    h3 {
-      // font-weight: normal;
     }
 
     section {
