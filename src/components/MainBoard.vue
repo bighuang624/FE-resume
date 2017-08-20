@@ -27,6 +27,7 @@
   .mainBoard {
     min-width: 480px;
     height: $common-height;
+    padding-top: 48px;
 
     section {
 

@@ -1,33 +1,21 @@
 <template>
   <section class="skills">
     <h3 class="section-title">技能列表</h3>
-    <ul>
-      <li v-for="item in info">
-        <span class="skill-title" v-text="item.title"></span>
-        <span class="skill-line">
-          <span class="skill-value" :style="'width: ' + item.value + '%'"></span>
-        </span>
-      </li>
-    </ul>
+    <skill :title="'Node.js'" :value="30"></skill>
+    <skill :title="'JavaScript'" :value="55"></skill>
   </section>
 </template>
 
 <script>
+  import Skill from './skills/Skill';
+
   export default {
     name: 'skills',
+    components: {
+      Skill,
+    },
     data() {
-      return {
-        info: [
-          {
-            title: 'Node.js',
-            value: 30,
-          },
-          {
-            title: 'JavaScript',
-            value: 60,
-          },
-        ],
-      };
+      return {};
     },
   };
 </script>
@@ -40,22 +28,5 @@
 
 
 
-  }
-
-  .skill-line {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 8px;
-    border-radius: 4px;
-    background-color: $dark-blue;
-
-    .skill-value {
-      content: "";
-      position: absolute;
-      height: 100%;
-      border-radius: 4px;
-      background: $common-blue none repeat scroll 0 0;
-    }
   }
 </style>

@@ -30,6 +30,7 @@
   .leftNav {
     width: 288px;
     height: $common-height;
+    padding-top: 48px;
     float: left;
     background-color: $common-blue;
 
@@ -73,7 +74,6 @@
 
   #avatar {
     height: 128px;
-    margin-top: 48px;
     border: 4px $common-white solid;
     border-radius: 4px;
     box-shadow: 1px 1px 1px $common-black;
