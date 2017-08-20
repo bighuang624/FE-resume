@@ -24,7 +24,6 @@
 
 <style lang="scss" scoped>
   @import "../../style/common";
-  // @import "../../assets/css/font-awesome.min.css";
 
   .skills {
 

@@ -29,7 +29,7 @@
   .mainBoard {
     width: 100%;
     height: $common-height;
-    padding-top: 48px;
+    padding: 10px 40px 0 40px;
     float: left;
 
     .inner {
@@ -47,7 +47,7 @@
 
       position: relative;
       width: 80px;
-      margin-bottom: 10px;
+      margin: 38px 0 20px 0;
       @include title-absolute-underline($common-blue);
 
       h3 {
