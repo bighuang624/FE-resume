@@ -23,6 +23,7 @@
             name: '探方网',
             time: '2016',
             intro: 'intro',
+            description: 'description',
           },
         ],
       };
@@ -40,5 +41,9 @@
 
   .experience-title {
     // width: 60px;
+
+    h4 {
+      color: $common-blue;
+    }
   }
 </style>

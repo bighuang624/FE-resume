@@ -57,10 +57,12 @@
         margin-left: 40px;
 
         li {
-          line-height: 1.8;
+          line-height: 2;
 
           i {
             margin-right: 6px;
+            font-size: 18px;
+            width: 20px;
           }
         }
       }
@@ -72,7 +74,8 @@
   #avatar {
     height: 128px;
     margin-top: 48px;
-    border: 2px $common-white solid;
+    border: 4px $common-white solid;
+    border-radius: 4px;
     box-shadow: 1px 1px 1px $common-black;
   }
 </style>

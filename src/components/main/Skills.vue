@@ -3,9 +3,9 @@
     <h3 class="section-title">技能列表</h3>
     <ul>
       <li v-for="item in info">
-        <span v-text="item.title"></span>
-        <span class="skill">
-          <span class="skill-value"></span>
+        <span class="skill-title" v-text="item.title"></span>
+        <span class="skill-line">
+          <span class="skill-value" :style="'width: ' + item.value + '%'"></span>
         </span>
       </li>
     </ul>
@@ -20,11 +20,11 @@
         info: [
           {
             title: 'Node.js',
-            value: 0.3,
+            value: 30,
           },
           {
             title: 'JavaScript',
-            value: 0.5,
+            value: 60,
           },
         ],
       };
@@ -42,7 +42,7 @@
 
   }
 
-  .skill {
+  .skill-line {
     position: relative;
     display: inline-block;
     width: 100px;
@@ -54,7 +54,6 @@
       content: "";
       position: absolute;
       height: 100%;
-      width: 30%;
       border-radius: 4px;
       background: $common-blue none repeat scroll 0 0;
     }
