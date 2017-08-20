@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <leftNav></leftNav>
-    <main>2哈哈哈</main>
+    <mainBoard></mainBoard>
   </div>
 </template>
 
 <script>
   import LeftNav from './components/LeftNav';
-  import Main from './components/Main';
+  import MainBoard from './components/MainBoard';
 
   export default {
     name: 'app',
     components: {
       LeftNav,
-      Main,
+      MainBoard,
     },
   };
 </script>
@@ -48,5 +48,17 @@
   h1, h2, h3, h4, h5 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 </style>

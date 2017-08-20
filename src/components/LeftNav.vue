@@ -35,13 +35,11 @@
 
     h1 {
       color: $common-white;
-      font-size: 32px;
       margin-top: 10px;
     }
 
     h3 {
       // font-weight: normal;
-      font-size: 20px;
     }
 
     section {
@@ -51,11 +49,12 @@
       h3.section-title {
         color: $common-white;
         @include title-underline($common-white);
+        margin-bottom: 10px;
       }
 
       ul {
         text-align: left;
-        margin: 8px 0 0 40px;
+        margin-left: 40px;
 
         li {
           line-height: 1.8;
