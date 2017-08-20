@@ -72,6 +72,7 @@
   #avatar {
     height: 128px;
     border: 4px $common-white solid;
+    background-color: $common-white;
     border-radius: 4px;
     box-shadow: 1px 1px 1px $common-black;
   }
