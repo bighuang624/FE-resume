@@ -71,7 +71,6 @@
       border-radius: 4px;
       background: $common-blue none repeat scroll 0 0;
 
-      // @include transition(width, 2s, ease-out)
     }
   }
 </style>
