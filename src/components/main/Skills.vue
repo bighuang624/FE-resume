@@ -9,7 +9,7 @@
       <skill :title="'CSS3'" :value="35"></skill>
       <skill :title="'JavaScript'" :value="60"></skill>
       <skill :title="'Vue'" :value="60"></skill>
-      <skill :title="'Node.js'" :value="25"></skill>
+      <skill :title="'Nodejs'" :value="25"></skill>
       <skill :title="'Java'" :value="40"></skill>
       <skill :title="'MySQL'" :value="40"></skill>
       <skill :title="'算法'" :value="35"></skill>
@@ -47,6 +47,5 @@
     -webkit-flex-wrap: wrap; /* Safari */
     flex-wrap: wrap;
     margin: 12px 0 8px 0;
-
   }
 </style>

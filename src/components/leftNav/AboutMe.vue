@@ -59,4 +59,49 @@
       color: $common-white;
     }
   }
+
+  .hexagon {
+
+    $hexagon-width: 32px;
+    $hexagon-bgcolor: $common-white;
+
+
+    width: $hexagon-width;
+    height: .55 * $hexagon-width;
+    background: $hexagon-bgcolor;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+
+    i {
+      position: absolute;
+      color: $common-blue;
+      left: 5px;
+      top: 0;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -.25 * $hexagon-width;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: .5 * $hexagon-width solid transparent;
+      border-right: .5 * $hexagon-width solid transparent;
+      border-bottom: .25 * $hexagon-width solid $hexagon-bgcolor;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -.25 * $hexagon-width;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: .5 * $hexagon-width solid transparent;
+      border-right: .5 * $hexagon-width solid transparent;
+      border-top: .25 * $hexagon-width solid $hexagon-bgcolor;
+    }
+  }
 </style>
