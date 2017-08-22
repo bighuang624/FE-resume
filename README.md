@@ -1,6 +1,6 @@
 # resume
 
-[![作者](https:\//img.shields.io\/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http:\//kyonhuang.top)
+![travis](https://travis-ci.org/bighuang624/resume.svg?branch=master) [![作者](https:\//img.shields.io\/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http:\//kyonhuang.top)
 
 基于 Vue 开发的个人简历 
 Personal resume powered by Vue.js
@@ -59,6 +59,10 @@ npm test
 
 - [ ] 增加徽章
 - [x] 上传 github 并预览
+
+### 博文总结
+
+[用 Vue 撸一份线上简历有哪些坑 | 大黄菌的个人博客](http://kyonhuang.top/make-a-resume/)
 
 ## License
 
