@@ -6,3 +6,5 @@ node_js:
  - '7.9.0'
 
 script: npm run unit
+after_script:
+    - npm run coveralls
