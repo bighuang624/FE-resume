@@ -5,4 +5,4 @@ node_js:
  - '7.5.0'
  - '7.9.0'
 
-script: npm run test
+script: npm run unit
