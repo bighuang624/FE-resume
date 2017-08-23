@@ -16,6 +16,7 @@
 
 <script>
   import Skill from './skills/Skill';
+  import getSkills from '../../api/skills';
 
   export default {
     name: 'skills',
@@ -24,59 +25,15 @@
     },
     data() {
       return {
-        programming: [
-          {
-            title: 'HTML5',
-            value: 50,
-          },
-          {
-            title: 'CSS3',
-            value: 35,
-          },
-          {
-            title: 'JavaScript',
-            value: 55,
-          },
-          {
-            title: 'Vue',
-            value: 50,
-          },
-          {
-            title: 'Nodejs',
-            value: 20,
-          },
-          {
-            title: 'Java',
-            value: 35,
-          },
-          {
-            title: 'MySQL',
-            value: 25,
-          },
-          {
-            title: '算法',
-            value: 30,
-          },
-        ],
-        quality: [
-          {
-            title: '鉴赏设计',
-            value: 40,
-          },
-          {
-            title: '写作',
-            value: 65,
-          },
-          {
-            title: '自学能力',
-            value: 60,
-          },
-          {
-            title: '领导力',
-            value: 50,
-          },
-        ],
+        programming: [],
+        quality: [],
       };
+    },
+    created() {
+      getSkills().then((response) => {
+        this.programming = response.programming;
+        this.quality = response.quality;
+      });
     },
   };
 </script>

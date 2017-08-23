@@ -16,6 +16,7 @@
     "coveralls": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "vue": "^2.3.3"
   },
   "devDependencies": {
