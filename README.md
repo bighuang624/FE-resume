@@ -4,8 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/bighuang624/resume/badge.svg?branch=master)](https://coveralls.io/github/bighuang624/resume?branch=master)
 [![作者](https:\//img.shields.io\/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http:\//kyonhuang.top)
 
-基于 Vue 开发的个人简历 
-Personal resume powered by Vue.js
+基于 Vue 开发的个人简历 | Personal resume powered by Vue.js
 
 ## Build Setup
 
@@ -59,7 +58,7 @@ npm test
 
 ### 项目完善
 
-- [ ] 增加徽章
+- [x] 增加徽章
 - [x] 上传 github 并预览
 
 ### 博文总结
