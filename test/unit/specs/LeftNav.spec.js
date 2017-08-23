@@ -6,12 +6,12 @@ describe('LeftNav.vue', () => {
   const vm = new Constructor().$mount();
 
   it('should render correct name', () => {
-    expect(vm.$el.querySelector('.leftNav h1').textContent)
+    expect(vm.$el.querySelector('#leftNav h1').textContent)
       .to.equal('Kyon Huang');
   });
 
   it('should render correct title', () => {
-    expect(vm.$el.querySelector('.leftNav h3').textContent)
+    expect(vm.$el.querySelector('#leftNav h3').textContent)
       .to.equal('Web 开发工程师');
   });
 });

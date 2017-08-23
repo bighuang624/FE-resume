@@ -11,7 +11,7 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.leftNav')
+      .assert.elementPresent('#leftNav')
       .assert.containsText('h1', 'Kyon Huang')
       .assert.elementCount('img', 1)
       .end();
