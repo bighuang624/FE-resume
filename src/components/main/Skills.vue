@@ -3,13 +3,15 @@
     <div class="section-title">
       <h3>技能列表</h3>
     </div>
-    <h4>- 编程能力 -</h4>
-    <div class="skills-list">
-      <skill v-for="item in programming" :title="item.title" :value="item.value" :key="item.title"></skill>
-    </div>
-    <h4>- 个人素养 -</h4>
-    <div class="skills-list">
-      <skill v-for="item in quality" :title="item.title" :value="item.value" :key="item.title"></skill>
+    <div class="skill-praph">
+      <h4>- 编程能力 -</h4>
+      <div class="skills-list">
+        <skill v-for="item in programming" :title="item.title" :value="item.value" :key="item.title"></skill>
+      </div>
+      <h4>- 个人素养 -</h4>
+      <div class="skills-list">
+        <skill v-for="item in quality" :title="item.title" :value="item.value" :key="item.title"></skill>
+      </div>
     </div>
   </section>
 </template>
@@ -33,6 +35,8 @@
       getSkills().then((response) => {
         this.programming = response.programming;
         this.quality = response.quality;
+      }).then(() => {
+        document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
       });
     },
   };
@@ -40,6 +44,10 @@
 
 <style lang="scss" scoped>
   @import "../../style/common";
+
+  .skill-praph {
+    padding-left: 10px;
+  }
 
   .skills-list {
     display: -webkit-flex; /* Safari */

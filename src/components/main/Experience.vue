@@ -34,6 +34,8 @@
     created() {
       getExperience().then((response) => {
         this.info = response.info;
+      }).then(() => {
+        document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
       });
     },
   };
@@ -41,6 +43,10 @@
 
 <style lang="scss" scoped>
   @import "../../style/common";
+
+  .experience {
+    padding-right: 40px;
+  }
 
   .experience-list {
 

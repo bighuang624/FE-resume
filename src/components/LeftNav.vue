@@ -1,5 +1,5 @@
 <template>
-  <div class="leftNav">
+  <div id="leftNav">
     <img id="avatar" src="../assets/avatar.jpg">
     <h1>Kyon Huang</h1>
     <h3>Web 开发工程师</h3>
@@ -21,17 +21,24 @@
     data() {
       return {};
     },
+    beforeUpdate() {
+
+    },
+    mounted() {
+      window.onresize = function WindowOnresize() {
+        document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
+      };
+    },
   };
 </script>
 
 <style lang="scss">
   @import "../style/common";
 
-  .leftNav {
+  #leftNav {
     width: 288px;
     float: left;
     margin-left: -100%;
-    height: $common-height;
     padding: 48px 0;
     background-color: $common-blue;
 

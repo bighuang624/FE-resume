@@ -1,5 +1,5 @@
 <template>
-  <div class="mainBoard">
+  <div id="mainBoard">
     <div class="inner">
       <experience></experience>
       <skills></skills>
@@ -29,10 +29,9 @@
 <style lang="scss">
   @import "../style/common";
 
-  .mainBoard {
+  #mainBoard {
     width: 100%;
-    height: $common-height;
-    padding: 10px 40px 40px 40px;
+    padding: 10px 30px 40px 40px;
     float: left;
 
     .inner {
