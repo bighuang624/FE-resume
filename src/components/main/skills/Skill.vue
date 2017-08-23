@@ -25,7 +25,7 @@
     methods: {
       addSkillAnime() {
         const styleElement = document.createElement('style');
-        styleElement.innerText = `
+        styleElement.innerText += `
           @keyframes ${this.title} {
             0% { width: 0; }
             100% { width: ${this.value}%; }

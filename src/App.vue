@@ -43,6 +43,7 @@
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     text-align: center;
+    height: auto;
   }
 
   h1, h2, h3, h4, h5 {

@@ -32,7 +32,7 @@
   .mainBoard {
     width: 100%;
     height: $common-height;
-    padding: 10px 40px 0 40px;
+    padding: 10px 40px 40px 40px;
     float: left;
 
     .inner {

@@ -32,7 +32,7 @@
     float: left;
     margin-left: -100%;
     height: $common-height;
-    padding-top: 48px;
+    padding: 48px 0;
     background-color: $common-blue;
 
     h1 {
