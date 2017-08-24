@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/bighuang624/resume.svg?branch=master)](https://travis-ci.org/bighuang624/resume) 
 [![Coverage Status](https://coveralls.io/repos/github/bighuang624/resume/badge.svg?branch=master)](https://coveralls.io/github/bighuang624/resume?branch=master)
+[![Node version](https://img.shields.io/badge/node-%3E%3D7-lightgrey.svg)]()
 [![作者](https:\//img.shields.io\/badge/%E4%BD%9C%E8%80%85-KyonHuang-7AD6FD.svg)](http:\//kyonhuang.top)
 
 基于 Vue 开发的个人简历 | Personal resume powered by Vue.js
