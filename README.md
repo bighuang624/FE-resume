@@ -8,6 +8,8 @@
 
 ## Build Setup
 
+请保证你的 Node 版本在 7 以上（最好是最新的版本）。
+
 ``` bash
 # download the project
 git clone git@github.com:bighuang624/resume.git
