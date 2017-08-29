@@ -46,7 +46,7 @@
   .skill {
     display: inline-block;
     width: 45%;
-    margin: 0 20px 12px 0;
+    margin: 0 20px 14px 0;
   }
 
   .skill-title {
