@@ -1,5 +1,5 @@
 <template>
-  <div class="skill">
+  <div class="skill" :title="`${this.value}%`">
     <div class="skill-title" v-text="title"></div>
     <span class="skill-line">
       <span class="skill-value" :style="valueStyle"></span>
