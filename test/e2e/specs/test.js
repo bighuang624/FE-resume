@@ -13,6 +13,7 @@ module.exports = {
       .waitForElementVisible('#app', 5000)
       .assert.elementPresent('#leftNav')
       .assert.containsText('h1', 'Kyon Huang')
+      .assert.containsText('h3', 'Web 开发工程师')
       .assert.elementCount('img', 1)
       .end();
   },
