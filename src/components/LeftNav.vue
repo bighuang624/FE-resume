@@ -5,18 +5,21 @@
     <h3>Web 开发工程师</h3>
     <aboutMe></aboutMe>
     <contact></contact>
+    <self-evaluation></self-evaluation>
   </div>
 </template>
 
 <script>
   import AboutMe from './leftNav/AboutMe';
   import Contact from './leftNav/Contact';
+  import SelfEvaluation from './leftNav/SelfEvaluation';
 
   export default {
     name: 'leftNav',
     components: {
       AboutMe,
       Contact,
+      SelfEvaluation,
     },
     data() {
       return {};
@@ -48,7 +51,7 @@
       margin-top: 10px;
     }
 
-    section {
+    section.aboutMe, section.contact, section.self-evaluation {
 
       margin-top: 24px;
 

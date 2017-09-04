@@ -1,7 +1,7 @@
 <template>
   <section class="experience">
     <div class="section-title">
-      <h3>项目经历</h3>
+      <h3>参赛经历</h3>
     </div>
     <ul class="experience-list">
       <li v-for="item in info">

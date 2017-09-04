@@ -2,23 +2,23 @@
   <div id="mainBoard">
     <div class="inner">
       <experience></experience>
+      <projects></projects>
       <skills></skills>
-      <selfEvaluation></selfEvaluation>
     </div>
   </div>
 </template>
 
 <script>
   import Experience from './main/Experience';
+  import Projects from './main/Projects';
   import Skills from './main/Skills';
-  import SelfEvaluation from './main/SelfEvaluation';
 
   export default {
     name: 'mainBoard',
     components: {
       Experience,
       Skills,
-      SelfEvaluation,
+      Projects,
     },
     data() {
       return {};
@@ -41,7 +41,7 @@
 
   }
 
-  .skills, .experience, .self-evaluation {
+  .skills, .experience, .projects {
 
     text-align: left;
 
