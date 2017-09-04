@@ -24,7 +24,7 @@
     margin: 0 40px;
 
     p {
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       text-align: left;
     }
   }
