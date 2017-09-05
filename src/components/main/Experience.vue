@@ -35,7 +35,9 @@
       getExperience().then((response) => {
         this.info = response.info;
       }).then(() => {
-        document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
+        if (document.getElementById('leftNav').clientHeight < document.getElementById('mainBoard').clientHeight) {
+          document.getElementById('leftNav').style.height = `${document.getElementById('mainBoard').clientHeight}px`;
+        }
       });
     },
   };
