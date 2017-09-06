@@ -42,7 +42,7 @@
 
   #leftNav {
     width: 288px;
-    height: 1000px;
+    height: auto;
     float: left;
     margin-left: -100%;
     padding: 48px 0;
