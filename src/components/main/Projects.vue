@@ -7,8 +7,10 @@
       <li v-for="item in info">
         <div class="projects-title">
           <span v-text="item.name"></span>
-          <a class="projects-gitAddress" :href="item.gitAddress">项目地址</a>
-          <a class="projects-onlineAddress" v-if="item.hasOnlineAddress" :href="item.onlineAddress">在线预览</a>
+          <p>
+            <a class="projects-gitAddress" :href="item.gitAddress">项目地址</a>
+            <a class="projects-onlineAddress" v-if="item.hasOnlineAddress" :href="item.onlineAddress">在线预览</a>
+          </p>
         </div>
         <span class="projects-description" v-text="item.description"></span>
       </li>
@@ -49,6 +51,9 @@
 
     li {
       margin-top: 16px;
+      margin-right: 10%;
+      width: 40%;
+      display: inline-block;
     }
   }
 
@@ -56,13 +61,13 @@
     margin-bottom: 4px;
 
     span {
-      color: $common-blue;
+      color: $common-black;
       font-size: 18px;
       margin-right: 48px;
     }
 
     a {
-      margin-left: 16px;
+      margin-right: 16px;
       font-size: 14px;
       color: $common-blue;
 
