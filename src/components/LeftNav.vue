@@ -2,7 +2,7 @@
   <div id="leftNav">
     <img id="avatar" src="../assets/avatar.jpg">
     <h1>Kyon Huang</h1>
-    <h3>Web 开发工程师</h3>
+    <h3>前端 / 机器学习</h3>
     <aboutMe></aboutMe>
     <contact></contact>
     <self-evaluation></self-evaluation>
@@ -84,6 +84,7 @@
 
   #avatar {
     height: 128px;
+    width: 128px;
     border: 4px $common-white solid;
     background-color: $common-white;
     border-radius: 4px;
