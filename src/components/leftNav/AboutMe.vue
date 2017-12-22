@@ -28,7 +28,7 @@
           {
             icon: 'fa fa-map-marker',
             title: '城市',
-            text: '武汉',
+            text: '现居 武汉',
           },
         ],
         info2: [

@@ -41,7 +41,7 @@
   @import "../style/common";
 
   #leftNav {
-    width: 288px;
+    width: 300px;
     height: auto;
     float: left;
     margin-left: -100%;

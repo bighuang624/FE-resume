@@ -35,7 +35,7 @@
     float: left;
 
     .inner {
-      margin-left: 288px;
+      margin-left: 300px;
       min-width: 480px;
     }
 

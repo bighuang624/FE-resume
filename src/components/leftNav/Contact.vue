@@ -16,21 +16,21 @@
     data() {
       return {
         info: [
-          {
-            icon: 'fa fa-phone',
-            title: '手机',
-            text: '181****2694',
-          },
+//          {
+//            icon: 'fa fa-phone',
+//            title: '手机',
+//            text: '181****2694',
+//          },
           {
             icon: 'fa fa-envelope',
             title: '邮箱',
             text: 'kyonhuang@qq.com',
           },
-          {
-            icon: 'fa fa-qq',
-            title: 'QQ',
-            text: '245****13',
-          },
+//          {
+//            icon: 'fa fa-qq',
+//            title: 'QQ',
+//            text: '245****13',
+//          },
           {
             icon: 'fa fa-weibo',
             title: '微博',

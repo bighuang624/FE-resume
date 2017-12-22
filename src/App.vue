@@ -61,4 +61,8 @@
   h4 {
     font-size: 18px;
   }
+
+  .emphasize {
+    color: $emphasize-black;
+  }
 </style>
