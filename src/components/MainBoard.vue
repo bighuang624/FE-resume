@@ -36,7 +36,7 @@
 
     .inner {
       margin-left: 300px;
-      min-width: 480px;
+      min-width: 540px;
     }
 
   }
