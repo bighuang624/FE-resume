@@ -10,7 +10,7 @@
 <p align="center">基于 Vue 开发的个人简历 | Personal resume powered by Vue.js</p>
 
 <p align="center">
-<img src="http://upload-images.jianshu.io/upload_images/2702529-51798f42f7ce3982.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<img src="https://raw.githubusercontent.com/bighuang624/FE-resume/master/resume.jpg">
 </p>
 
 ## Attention
