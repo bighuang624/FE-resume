@@ -1,4 +1,4 @@
-<h1 align="center">resume</h1>
+<h1 align="center">FE-resume</h1>
 
 <p align="center">
 <a href="https://travis-ci.org/bighuang624/resume"><img src="https://travis-ci.org/bighuang624/resume.svg?branch=master" alt="Build Status"></a>
@@ -13,9 +13,13 @@
 <img src="http://upload-images.jianshu.io/upload_images/2702529-51798f42f7ce3982.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 </p>
 
+## Attention
+
+> 转向 AI 方向学习，暂不考虑前端 / Node 岗位的招聘。谢谢！
+
 ## 在线地址
 
-[http://kyonhuang.top/resume/](http://kyonhuang.top/resume/)
+[http://kyonhuang.top/FE-resume/](http://kyonhuang.top/FE-resume/)
 
 ## Build Setup
 
@@ -23,8 +27,8 @@
 
 ``` bash
 # download the project
-git clone git@github.com:bighuang624/resume.git
-cd resume
+git clone git@github.com:bighuang624/FE-resume.git
+cd FE-resume
 
 # install dependencies
 npm install
@@ -81,10 +85,6 @@ npm test
 请注意，左边蓝色一栏的数据全部是写死的，而右边的数据则是异步加载。这意味着你需要更改好一会了。
 
 正在考虑将其向更方便更改的方向修改。
-
-## Attention
-
-寻找一份 AI 实习工作（今年 10 月之后）。如果您有合适的岗位需求，请联系我。
 
 ## License
 

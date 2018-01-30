@@ -2,7 +2,7 @@
   <div id="leftNav">
     <img id="avatar" src="../assets/avatar.jpg">
     <h1>Kyon Huang</h1>
-    <h3>AI / 前端</h3>
+    <h3>Web 开发工程师</h3>
     <aboutMe></aboutMe>
     <contact></contact>
     <self-evaluation></self-evaluation>

@@ -16,11 +16,6 @@
     data() {
       return {
         info: [
-//          {
-//            icon: 'fa fa-phone',
-//            title: '手机',
-//            text: '181****2694',
-//          },
           {
             icon: 'fa fa-envelope',
             title: '邮箱',
@@ -31,11 +26,11 @@
 //            title: 'QQ',
 //            text: '245****13',
 //          },
-          {
-            icon: 'fa fa-weibo',
-            title: '微博',
-            text: '@大黄菌今天也在摸鱼',
-          },
+//          {
+//            icon: 'fa fa-weibo',
+//            title: '微博',
+//            text: '@大黄菌今天也在摸鱼',
+//          },
         ],
       };
     },
